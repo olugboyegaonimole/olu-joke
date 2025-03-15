@@ -22,6 +22,12 @@ jokes = [
     "Why did the golfer bring two pairs of pants? In case he got a hole in one."
 ]
 
+# Root Endpoint for API Status Check
+@app.get("/", include_in_schema=False)
+@app.head("/")
+def root():
+    return {"message": "Welcome to the Joke API!"}
+
 @app.get("/joke")
 def get_joke():
     return {"joke": random.choice(jokes)}
