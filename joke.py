@@ -106,7 +106,6 @@ jokes = [
     "What does a cloud wear under its pants? Thunderwear!",
     "Why did the tomato sit down? It was feeling saucy!",
     "What do you call a lazy kangaroo? A pouch potato!",
-    "Why do ducks have feathers? To cover their butt quacks!",
     "What did the big flower say to the little flower? Hi, bud!",
     "What do you call an avocado that went to church? Holy guacamole!",
     "Why did the ghost go to school? To improve his boo-k smarts!",
